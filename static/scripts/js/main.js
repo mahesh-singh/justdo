@@ -1,7 +1,11 @@
-var JustDoApp = require('./components/app');
+var JustDoApp = require('./components/app.react');
 var React = require('react');
+
+window.React = React; 
+
+
 
 React.render(
     <JustDoApp/>, 
-    document.getElementById('main')
+    document.getElementById('body')
     );

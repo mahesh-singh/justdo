@@ -254,6 +254,30 @@
     <Content Include="static\bower_components\jquery\src\var\support.js" />
     <Content Include="static\bower_components\jquery\src\var\toString.js" />
     <Content Include="static\bower_components\jquery\src\wrap.js" />
+    <Content Include="static\bower_components\mousetrap\.bower.json" />
+    <Content Include="static\bower_components\mousetrap\.gitignore" />
+    <Content Include="static\bower_components\mousetrap\Gruntfile.js" />
+    <Content Include="static\bower_components\mousetrap\mousetrap.js" />
+    <Content Include="static\bower_components\mousetrap\mousetrap.min.js" />
+    <Content Include="static\bower_components\mousetrap\package.json" />
+    <Content Include="static\bower_components\mousetrap\plugins\bind-dictionary\mousetrap-bind-dictionary.js" />
+    <Content Include="static\bower_components\mousetrap\plugins\bind-dictionary\mousetrap-bind-dictionary.min.js" />
+    <Content Include="static\bower_components\mousetrap\plugins\bind-dictionary\README.md" />
+    <Content Include="static\bower_components\mousetrap\plugins\global-bind\mousetrap-global-bind.js" />
+    <Content Include="static\bower_components\mousetrap\plugins\global-bind\mousetrap-global-bind.min.js" />
+    <Content Include="static\bower_components\mousetrap\plugins\global-bind\README.md" />
+    <Content Include="static\bower_components\mousetrap\plugins\pause\mousetrap-pause.js" />
+    <Content Include="static\bower_components\mousetrap\plugins\pause\mousetrap-pause.min.js" />
+    <Content Include="static\bower_components\mousetrap\plugins\pause\README.md" />
+    <Content Include="static\bower_components\mousetrap\plugins\README.md" />
+    <Content Include="static\bower_components\mousetrap\plugins\record\mousetrap-record.js" />
+    <Content Include="static\bower_components\mousetrap\plugins\record\mousetrap-record.min.js" />
+    <Content Include="static\bower_components\mousetrap\plugins\record\README.md" />
+    <Content Include="static\bower_components\mousetrap\plugins\record\tests\index.html" />
+    <Content Include="static\bower_components\mousetrap\plugins\record\tests\jelly.css" />
+    <Content Include="static\bower_components\mousetrap\plugins\record\tests\jelly.js" />
+    <Content Include="static\bower_components\mousetrap\README.md" />
+    <Content Include="static\bower_components\mousetrap\tests\libs\chai-1.6.0.js" />
     <Content Include="static\bower_components\react\.bower.json" />
     <Content Include="static\bower_components\react\bower.json" />
     <Content Include="static\bower_components\react\JSXTransformer.js" />
@@ -268,9 +292,14 @@
     <Content Include="static\scripts\js\components\app.react.js">
       <SubType>Code</SubType>
     </Content>
+    <Content Include="static\scripts\js\components\MoustrapMixin.js" />
     <Content Include="static\scripts\js\components\Project.react.js" />
     <Content Include="static\scripts\js\components\SearchSection.react.js" />
     <Content Include="static\scripts\js\components\ProjectSection.react.js" />
+    <Content Include="static\scripts\js\components\Task.react.js">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="static\scripts\js\components\TaskEditor.react.js" />
     <Content Include="static\scripts\js\constants\JustDoConstants.js" />
     <Content Include="static\scripts\js\dispatcher\JustDoAppDispatcher.js">
       <SubType>Code</SubType>
@@ -280,6 +309,7 @@
     </Content>
     <Content Include="static\scripts\js\stores\ProjectStore.js" />
     <Content Include="static\scripts\js\utils\ProjectApi.js" />
+    <Content Include="templates\index-p.html" />
     <Content Include="templates\index.html">
       <SubType>Code</SubType>
     </Content>
@@ -332,6 +362,15 @@
     <Folder Include="static\bower_components\jquery\src\traversing\" />
     <Folder Include="static\bower_components\jquery\src\traversing\var\" />
     <Folder Include="static\bower_components\jquery\src\var\" />
+    <Folder Include="static\bower_components\mousetrap\" />
+    <Folder Include="static\bower_components\mousetrap\plugins\" />
+    <Folder Include="static\bower_components\mousetrap\plugins\bind-dictionary\" />
+    <Folder Include="static\bower_components\mousetrap\plugins\global-bind\" />
+    <Folder Include="static\bower_components\mousetrap\plugins\pause\" />
+    <Folder Include="static\bower_components\mousetrap\plugins\record\" />
+    <Folder Include="static\bower_components\mousetrap\plugins\record\tests\" />
+    <Folder Include="static\bower_components\mousetrap\tests\" />
+    <Folder Include="static\bower_components\mousetrap\tests\libs\" />
     <Folder Include="static\bower_components\react\" />
     <Folder Include="static\css\" />
     <Folder Include="static\scripts\" />
